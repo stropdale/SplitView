@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E43814111E02AED0008C02DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E43814101E02AED0008C02DF /* main.m */; };
+		E43814141E02AED0008C02DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E43814131E02AED0008C02DF /* AppDelegate.m */; };
+		E438141C1E02AED0008C02DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E438141B1E02AED0008C02DF /* Assets.xcassets */; };
+		E438141F1E02AED0008C02DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E438141D1E02AED0008C02DF /* LaunchScreen.storyboard */; };
+		E438142F1E02AF82008C02DF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43814271E02AF82008C02DF /* DetailViewController.m */; };
+		E43814301E02AF82008C02DF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43814291E02AF82008C02DF /* MasterViewController.m */; };
+		E43814311E02AF82008C02DF /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E438142C1E02AF82008C02DF /* SplitViewController.m */; };
+		E43814321E02AF82008C02DF /* SplitViewNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E438142E1E02AF82008C02DF /* SplitViewNavigationController.m */; };
+		E43814351E02B1C0008C02DF /* SplitView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43814341E02B1C0008C02DF /* SplitView.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E438140C1E02AED0008C02DF /* JSDSplitViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSDSplitViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43814101E02AED0008C02DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E43814121E02AED0008C02DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E43814131E02AED0008C02DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E438141B1E02AED0008C02DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E438141E1E02AED0008C02DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E43814201E02AED0008C02DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43814261E02AF82008C02DF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E43814271E02AF82008C02DF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E43814281E02AF82008C02DF /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E43814291E02AF82008C02DF /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E438142A1E02AF82008C02DF /* SplitViewCommunicationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewCommunicationProtocol.h; sourceTree = "<group>"; };
+		E438142B1E02AF82008C02DF /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
+		E438142C1E02AF82008C02DF /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
+		E438142D1E02AF82008C02DF /* SplitViewNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewNavigationController.h; sourceTree = "<group>"; };
+		E438142E1E02AF82008C02DF /* SplitViewNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewNavigationController.m; sourceTree = "<group>"; };
+		E43814341E02B1C0008C02DF /* SplitView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SplitView.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E43814091E02AED0008C02DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E43814031E02AED0008C02DF = {
+			isa = PBXGroup;
+			children = (
+				E438140E1E02AED0008C02DF /* JSDSplitViewController */,
+				E438140D1E02AED0008C02DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E438140D1E02AED0008C02DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E438140C1E02AED0008C02DF /* JSDSplitViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E438140E1E02AED0008C02DF /* JSDSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E43814331E02AF97008C02DF /* Demo View Controllers */,
+				E438142A1E02AF82008C02DF /* SplitViewCommunicationProtocol.h */,
+				E438142B1E02AF82008C02DF /* SplitViewController.h */,
+				E438142C1E02AF82008C02DF /* SplitViewController.m */,
+				E438142D1E02AF82008C02DF /* SplitViewNavigationController.h */,
+				E438142E1E02AF82008C02DF /* SplitViewNavigationController.m */,
+				E43814121E02AED0008C02DF /* AppDelegate.h */,
+				E43814131E02AED0008C02DF /* AppDelegate.m */,
+				E438141B1E02AED0008C02DF /* Assets.xcassets */,
+				E43814341E02B1C0008C02DF /* SplitView.storyboard */,
+				E438141D1E02AED0008C02DF /* LaunchScreen.storyboard */,
+				E43814201E02AED0008C02DF /* Info.plist */,
+				E438140F1E02AED0008C02DF /* Supporting Files */,
+			);
+			path = JSDSplitViewController;
+			sourceTree = "<group>";
+		};
+		E438140F1E02AED0008C02DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E43814101E02AED0008C02DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E43814331E02AF97008C02DF /* Demo View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E43814261E02AF82008C02DF /* DetailViewController.h */,
+				E43814271E02AF82008C02DF /* DetailViewController.m */,
+				E43814281E02AF82008C02DF /* MasterViewController.h */,
+				E43814291E02AF82008C02DF /* MasterViewController.m */,
+			);
+			name = "Demo View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E438140B1E02AED0008C02DF /* JSDSplitViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43814231E02AED0008C02DF /* Build configuration list for PBXNativeTarget "JSDSplitViewController" */;
+			buildPhases = (
+				E43814081E02AED0008C02DF /* Sources */,
+				E43814091E02AED0008C02DF /* Frameworks */,
+				E438140A1E02AED0008C02DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSDSplitViewController;
+			productName = JSDSplitViewController;
+			productReference = E438140C1E02AED0008C02DF /* JSDSplitViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E43814041E02AED0008C02DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Junction Seven";
+				TargetAttributes = {
+					E438140B1E02AED0008C02DF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E43814071E02AED0008C02DF /* Build configuration list for PBXProject "JSDSplitViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E43814031E02AED0008C02DF;
+			productRefGroup = E438140D1E02AED0008C02DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E438140B1E02AED0008C02DF /* JSDSplitViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E438140A1E02AED0008C02DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43814351E02B1C0008C02DF /* SplitView.storyboard in Resources */,
+				E438141F1E02AED0008C02DF /* LaunchScreen.storyboard in Resources */,
+				E438141C1E02AED0008C02DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E43814081E02AED0008C02DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43814311E02AF82008C02DF /* SplitViewController.m in Sources */,
+				E43814141E02AED0008C02DF /* AppDelegate.m in Sources */,
+				E43814301E02AF82008C02DF /* MasterViewController.m in Sources */,
+				E43814111E02AED0008C02DF /* main.m in Sources */,
+				E43814321E02AF82008C02DF /* SplitViewNavigationController.m in Sources */,
+				E438142F1E02AF82008C02DF /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E438141D1E02AED0008C02DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E438141E1E02AED0008C02DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E43814211E02AED0008C02DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E43814221E02AED0008C02DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E43814241E02AED0008C02DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSDSplitViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSD.JSDSplitViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E43814251E02AED0008C02DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSDSplitViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSD.JSDSplitViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E43814071E02AED0008C02DF /* Build configuration list for PBXProject "JSDSplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43814211E02AED0008C02DF /* Debug */,
+				E43814221E02AED0008C02DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43814231E02AED0008C02DF /* Build configuration list for PBXNativeTarget "JSDSplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43814241E02AED0008C02DF /* Debug */,
+				E43814251E02AED0008C02DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E43814041E02AED0008C02DF /* Project object */;
+}
